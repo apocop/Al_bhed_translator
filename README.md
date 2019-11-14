@@ -2,16 +2,16 @@
 
 #### Impetus 
 
-Recently, I started playing Final Fantasy X, and thought it would be fun little
-project to make translator for Al Bhed.
+Recently, I started playing Final Fantasy X, and thought it would be a fun little
+project to make a translator for Al Bhed.
 
 #### Al Bhed
 
 Al Bhed is the language of the Al Bhed people from the game, Final Fantasy X.
-Al Bhed can't exactly be considered a constructed language, since it's 
-technically a cypher.  This code will be dealing with the English version,
+However it's not technically a [constructed language](https://en.wikipedia.org/wiki/Constructed_language), since it's 
+a cypher.  This code will be dealing with the English version,
 although the code could easily be extended to handle the Japanese-version of 
-Al Bhed since the mapping file easily be updated handle a different cypher schema.
+Al Bhed since the mapping file easily be updated handle additional mapping schema.
 
 #### Basic Usage
 
@@ -72,5 +72,3 @@ However, diacritics can be maintained by passing `--allow_diacritics=True`.
  and the unsuspecting reader may not realize that it's not the Al Bhed
  they're expecting.  On the other hand, this could be a boon to those that would
  like to maintain diacritics.
- 
- 
